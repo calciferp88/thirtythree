@@ -297,16 +297,16 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+ -ms-flex-pack: center;
+  justify-content: center;
   padding-right: 18rem;
 }
 
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 .header-content .right-header .name span {
@@ -459,23 +459,23 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 95%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 90%;
+  width: 80%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 65%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 75%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 85%;
+}
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 70%;
+  width: 75%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
